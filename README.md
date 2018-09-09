@@ -1,37 +1,17 @@
-# README
+# Books For Aggies
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Books for Aggies is a website made for Texas A&M Library, providing a platform for sharing and lending books and also finding study partners who can share book for semester terms.
 
-Things you may want to cover:
+[Link to Website](http://booksforaggies.herokuapp.com)
 
-* Ruby version
+# New Features!
+  - Register yourself onto the server for notification updates.
+  - Inquire for the avail books that are avail to lend.
+  - Request for book from the owner.
+  - As a owner, list your avail book over the site.
+  - Get notified when someone is availabe to take the books.
 
-* System dependencies
 
-* Configuration
+### Tech
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-Database table created with fields
-* title			: string
-* author		: string
-* category		: string
-* isbn_no		: string
-* image			: binary
-* edition		: string
-* abstract		: text
-* publisher		: string
-* date_of_publish	: date
-* descriptors		: string
-
+The website is developed on Ruby on Rails framework with HTML 5.0 and CSS frontend development. This website is deployed on Heroku for general public.
