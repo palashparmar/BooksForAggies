@@ -1,0 +1,48 @@
+%body
+  .w3-container.header1
+    .site_name
+      %h2 Books for Aggies
+    .login
+      %img.user_avatar{:src => "user.png"}/
+      %h4 Login
+  / Sidebar
+  .w3-sidebar.w3-light-grey.w3-bar-block.side_menu
+    %a.w3-bar-item.w3-button.find{:href => "#"}
+      %h3 Find
+    %a.w3-bar-item.w3-button.share{:href => "#"}
+      %h3 Share
+  / Page Content
+  .main_content
+    .content_header
+      %h2 Share a Book
+    .book.w3-container
+      .book_image
+        %img.book_pic{:src => "book.jpg"}/
+        %p Upload an image of the book
+      .book_details
+        %table
+          %tr
+            %td TITLE
+            %td
+              %input#title{:type => "text"}/
+          %tr
+            %td AUTHOR
+            %td
+              %input#author{:type => "text"}/
+          %tr
+            %td EDITION
+            %td
+              %input#edition{:type => "text"}/
+          %tr
+            %td COURSE ID
+            %td
+              %input#courseid{:type => "text"}/
+          %tr
+            %td ISBN
+            %td
+              %input#isbn{:type => "text"}/
+          %tr
+            %td MESSAGE
+            %td
+              %textarea#myTextArea{:cols => "22", :rows => "3"}
+              
